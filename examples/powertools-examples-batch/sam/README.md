@@ -1,4 +1,4 @@
-                                         #  Powertools for AWS Lambda (Java) - Batch Example
+#  Powertools for AWS Lambda (Java) - Batch Example
 
 This project contains examples of Lambda function using the batch processing module of Powertools for AWS Lambda (Java).
 For more information on this module, please refer to the
@@ -13,7 +13,7 @@ Three different examples and SAM deployments are included, covering each of the 
 ## Deploy the sample application
 
 This sample is based on Serverless Application Model (SAM). To deploy it, check out the instructions for getting
-started with SAM in [the examples directory](../README.md)
+started with SAM in [the examples directory](../../README.md)
 
 This sample contains three different deployments, depending on which batch processor you'd like to use, you can
 change to the subdirectory containing the example SAM template, and deploy. For instance, for the SQS batch

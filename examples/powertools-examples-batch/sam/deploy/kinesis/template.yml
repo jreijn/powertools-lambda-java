@@ -77,7 +77,7 @@ Outputs:
   DemoKinesisSenderFunction:
     Description: "Kinesis Batch Sender - Lambda Function ARN"
     Value: !GetAtt DemoKinesisSenderFunction.Arn
-  DemoSQSConsumerFunction:
+  DemoKinesisConsumerFunction:
     Description: "SQS Batch Handler - Lambda Function ARN"
     Value: !GetAtt DemoKinesisConsumerFunction.Arn
 

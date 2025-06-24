@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="JsonAppender" target="SYSTEM_OUT">
+            <!-- custom layout to show thread name in logs -->
+            <JsonTemplateLayout eventTemplateUri="classpath:LogLayout.json"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <logger name="software.amazon.awssdk.enhanced.dynamodb.beans" level="debug">
+            <appender-ref ref="JsonAppender"/>
+        </logger>
+        <logger name="software.amazon.awssdk.enhanced.dynamodb.mapper" level="debug">
+            <appender-ref ref="JsonAppender"/>
+        </logger>
+        <Logger name="JsonLogger" level="INFO" additivity="false">
+            <AppenderRef ref="JsonAppender"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="JsonAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.demo.batch.model.Product;
 import software.amazon.lambda.powertools.batch.BatchMessageHandlerBuilder;
 import software.amazon.lambda.powertools.batch.handler.BatchMessageHandler;
+import software.amazon.lambda.powertools.logging.Logging;
 
 public class KinesisBatchHandler implements RequestHandler<KinesisEvent, StreamsEventResponse> {
 
@@ -18,14 +19,19 @@ public class KinesisBatchHandler implements RequestHandler<KinesisEvent, Streams
     public KinesisBatchHandler() {
         handler = new BatchMessageHandlerBuilder()
                 .withKinesisBatchHandler()
-                .buildWithMessageHandler(this::processMessage, Product.class);
+                .buildWithRawMessageHandler(this::processRawMessage);
+//                .buildWithMessageHandler(this::processMessage, Product.class);
     }
 
+    @Logging
     @Override
     public StreamsEventResponse handleRequest(KinesisEvent kinesisEvent, Context context) {
         return handler.processBatch(kinesisEvent, context);
     }
 
+    private void processRawMessage(KinesisEvent.KinesisEventRecord record, Context context) {
+        LOGGER.info("Processing record " + record);
+    }
     private void processMessage(Product p, Context c) {
         LOGGER.info("Processing product " + p);
     }
