@@ -1,0 +1,9 @@
+[
+{
+  "name":"software.amazon.lambda.powertools.batch.model.Product",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setId","parameterTypes":["long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setPrice","parameterTypes":["double"] }]
+}
+]

@@ -1,0 +1,203 @@
+[
+{
+  "name":"[Lcom.amazonaws.lambda.thirdparty.com.fasterxml.jackson.databind.deser.Deserializers;"
+},
+{
+  "name":"[Lcom.amazonaws.lambda.thirdparty.com.fasterxml.jackson.databind.deser.KeyDeserializers;"
+},
+{
+  "name":"[Lcom.amazonaws.lambda.thirdparty.com.fasterxml.jackson.databind.deser.ValueInstantiators;"
+},
+{
+  "name":"[Lcom.amazonaws.lambda.thirdparty.com.fasterxml.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"com.amazonaws.lambda.thirdparty.com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.amazonaws.lambda.thirdparty.com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.DynamodbEvent",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setRecords","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.DynamodbEvent$DynamodbStreamRecord",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setEventSourceARN","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.KinesisEvent",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setRecords","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.KinesisEvent$KinesisEventRecord",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setAwsRegion","parameterTypes":["java.lang.String"] }, {"name":"setEventID","parameterTypes":["java.lang.String"] }, {"name":"setEventName","parameterTypes":["java.lang.String"] }, {"name":"setEventSource","parameterTypes":["java.lang.String"] }, {"name":"setEventSourceARN","parameterTypes":["java.lang.String"] }, {"name":"setEventVersion","parameterTypes":["java.lang.String"] }, {"name":"setInvokeIdentityArn","parameterTypes":["java.lang.String"] }, {"name":"setKinesis","parameterTypes":["com.amazonaws.services.lambda.runtime.events.KinesisEvent$Record"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.KinesisEvent$Record",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setKinesisSchemaVersion","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setRecords","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent$MessageAttribute",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent$SQSMessage",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setAttributes","parameterTypes":["java.util.Map"] }, {"name":"setAwsRegion","parameterTypes":["java.lang.String"] }, {"name":"setBody","parameterTypes":["java.lang.String"] }, {"name":"setEventSource","parameterTypes":["java.lang.String"] }, {"name":"setEventSourceArn","parameterTypes":["java.lang.String"] }, {"name":"setMd5OfBody","parameterTypes":["java.lang.String"] }, {"name":"setMessageAttributes","parameterTypes":["java.util.Map"] }, {"name":"setMessageId","parameterTypes":["java.lang.String"] }, {"name":"setReceiptHandle","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.models.dynamodb.AttributeValue",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setN","parameterTypes":["java.lang.String"] }, {"name":"setS","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.models.dynamodb.Identity",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setPrincipalId","parameterTypes":["java.lang.String"] }, {"name":"setType","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.models.dynamodb.Record",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"setAwsRegion","parameterTypes":["java.lang.String"] }, {"name":"setDynamodb","parameterTypes":["com.amazonaws.services.lambda.runtime.events.models.dynamodb.StreamRecord"] }, {"name":"setEventID","parameterTypes":["java.lang.String"] }, {"name":"setEventName","parameterTypes":["java.lang.String"] }, {"name":"setEventSource","parameterTypes":["java.lang.String"] }, {"name":"setEventVersion","parameterTypes":["java.lang.String"] }, {"name":"setUserIdentity","parameterTypes":["com.amazonaws.services.lambda.runtime.events.models.dynamodb.Identity"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.models.dynamodb.StreamRecord",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setApproximateCreationDateTime","parameterTypes":["java.util.Date"] }, {"name":"setKeys","parameterTypes":["java.util.Map"] }, {"name":"setNewImage","parameterTypes":["java.util.Map"] }, {"name":"setOldImage","parameterTypes":["java.util.Map"] }, {"name":"setSequenceNumber","parameterTypes":["java.lang.String"] }, {"name":"setSizeBytes","parameterTypes":["java.lang.Long"] }, {"name":"setStreamViewType","parameterTypes":["com.amazonaws.services.lambda.runtime.events.models.dynamodb.StreamViewType"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.models.dynamodb.StreamViewType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.events.models.kinesis.Record",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"setApproximateArrivalTimestamp","parameterTypes":["java.util.Date"] }, {"name":"setData","parameterTypes":["java.nio.ByteBuffer"] }, {"name":"setEncryptionType","parameterTypes":["java.lang.String"] }, {"name":"setPartitionKey","parameterTypes":["java.lang.String"] }, {"name":"setSequenceNumber","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.DynamodbEventMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.DynamodbEventMixin$AttributeValueMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.DynamodbEventMixin$DynamodbStreamRecordMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.DynamodbEventMixin$StreamRecordMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.KinesisEventMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.KinesisEventMixin$RecordMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.SQSEventMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.serialization.events.mixins.SQSEventMixin$SQSMessageMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.tests.EventArgumentsProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.amazonaws.services.lambda.runtime.tests.annotations.Event",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.concurrent.ForkJoinTask",
+  "fields":[{"name":"aux"}, {"name":"status"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.function.Consumer",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.internal.misc.Unsafe"
+},
+{
+  "name":"org.apiguardian.api.API",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.joda.time.DateTime"
+}
+]

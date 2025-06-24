@@ -1,0 +1,37 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/dynamo_event.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/dynamo_event_big.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/kinesis_event.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/kinesis_event_big.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/sqs_event.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/sqs_event_big.json\\E"
+  }, {
+    "pattern":"\\Qcom/amazonaws/services/lambda/runtime/serialization/factories/sqs_fifo_event.json\\E"
+  }, {
+    "pattern":"\\Qdynamo_event.json\\E"
+  }, {
+    "pattern":"\\Qdynamo_event_big.json\\E"
+  }, {
+    "pattern":"\\Qjunit-platform.properties\\E"
+  }, {
+    "pattern":"\\Qkinesis_event.json\\E"
+  }, {
+    "pattern":"\\Qkinesis_event_big.json\\E"
+  }, {
+    "pattern":"\\Qsimplelogger.properties\\E"
+  }, {
+    "pattern":"\\Qsqs_event.json\\E"
+  }, {
+    "pattern":"\\Qsqs_event_big.json\\E"
+  }, {
+    "pattern":"\\Qsqs_fifo_event.json\\E"
+  }]},
+  "bundles":[]
+}
